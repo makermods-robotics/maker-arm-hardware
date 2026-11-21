@@ -1,6 +1,8 @@
 # Maker Arm hardware
 
-CAD for the MakerMods Maker Arm as STEP files: the full assembly, plus one file for each part.
+CAD for the MakerMods Maker Arm: the full assembly and one file for each part as STEP, plus a URDF for simulation.
+
+![The Maker Arm turning on the spot: a black arm with "MAKER ARM" and "MakerMods" lettering in white](docs/maker-arm-turntable.gif)
 
 The Maker Arm is a robot arm made by [MakerMods](https://makermods.ai). It has seven actuators: six arm joints (J1 to J6) and a parallel gripper (J7). In this build most of the structure is 3D printed.
 
@@ -24,8 +26,10 @@ parts/purchased/                          bought parts: actuators, bearings, lin
                                           shoulder bolts, washers, camera modules
 parts.csv                                 one row per part file: part number, name, Fusion name, qty, group, notes
 guide-part-map.json                       which part file each part in the assembly guide uses
+urdf/robot.urdf                           the arm for simulators and kinematics, with its meshes in urdf/meshes/
 tools/split_step.py                       the script that makes parts/ and parts.csv from the assembly
 tools/README.md                           how to run it after a new Fusion export
+docs/                                     the picture above
 ```
 
 ## Parts
@@ -86,6 +90,10 @@ About the part files:
 - Raised lettering and logos are separate bodies inside the file of the part they belong to (upper arm, forearm, camera cover, camera stand base plate).
 - Files that start with a part number (`MA01-1xx-xx`) use the MakerMods part number. Parts without one are named after what they are.
 - Printed vs other material is not yet confirmed for some parts (the base plate, end strips, camera stand base plate, camera cover and pivot washers). `parts.csv` marks these "unconfirmed".
+
+## URDF
+
+[`urdf/robot.urdf`](urdf/robot.urdf) models one arm with six revolute joints and a sliding parallel gripper. Load it directly and keep `urdf/meshes/` beside it. It is good for visual and kinematic work and is not yet validated for dynamics; [urdf/README.md](urdf/README.md) lists the joints, the limits and what is still unverified. It is a copy of the URDF maintained in the [Maker Arm SDK](https://github.com/makermods-robotics/maker-arm-sdk).
 
 ## Regenerating the part files
 
