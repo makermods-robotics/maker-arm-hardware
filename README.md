@@ -103,6 +103,6 @@ STEP files are stored with [Git LFS](https://git-lfs.com). Run `git lfs install`
 
 ## License
 
-To be decided before public release.
+The MakerMods designs in this repository are licensed under the [Apache License 2.0](LICENSE).
 
-Before release, also confirm that the models of purchased parts in `parts/purchased/` (RobStride actuators, bearings, linear rail and carriages, shoulder bolts, camera module) can be redistributed.
+The models in `parts/purchased/` (RobStride actuators, bearings, linear rail and carriages, shoulder bolts, camera module) are bought parts. They are included so the assembly is complete, and remain the designs of their manufacturers.
