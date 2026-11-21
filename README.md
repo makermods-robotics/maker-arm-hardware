@@ -2,8 +2,6 @@
 
 CAD for the MakerMods Maker Arm: the full assembly and one file for each part as STEP, plus a URDF for simulation.
 
-![The Maker Arm turning on the spot: a black arm with "MAKER ARM" and "MakerMods" lettering in white](docs/maker-arm-turntable.gif)
-
 The Maker Arm is a robot arm made by [MakerMods](https://makermods.ai). It has seven actuators: six arm joints (J1 to J6) and a parallel gripper (J7). In this build most of the structure is 3D printed.
 
 - Product page: https://makermods.ai/maker-arm.html
@@ -29,7 +27,6 @@ guide-part-map.json                       which part file each part in the assem
 urdf/robot.urdf                           the arm for simulators and kinematics, with its meshes in urdf/meshes/
 tools/split_step.py                       the script that makes parts/ and parts.csv from the assembly
 tools/README.md                           how to run it after a new Fusion export
-docs/                                     the picture above
 ```
 
 ## Parts
