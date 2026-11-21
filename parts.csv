@@ -1,0 +1,41 @@
+file,part_number,name,fusion_name,qty,category,group,notes
+parts/printed/MA01-101-01-base-plate.step,MA01-101-01,Base plate,MA01-101-01,1,printed,Base,200 x 100 x 10 mm plate under the arm. Printed vs another material unconfirmed.
+parts/printed/MA01-132-01-end-strip.step,MA01-132-01,End strip,MA01-132-01,4,printed,Base,"Two under the arm base plate, two under the camera stand base plate; sits in a recess, three captured M3 nuts. Printed vs another material unconfirmed."
+parts/purchased/robstride-00.step,,RobStride 00 actuator,RS00,5,purchased,J1,"J1, J4, J5, J6 and J7 (gripper)."
+parts/printed/j1-housing.step,,J1 housing,yaw电机外壳,1,printed,J1,
+parts/printed/j1-bearing-seat.step,,J1 bearing seat,yaw轴承底座,1,printed,J1,
+parts/purchased/bearing-6807-35x44x5.step,,"Deep-groove ball bearing 6807, 35 x 44 x 5 mm",深沟球35*44*5,1,purchased,J1,
+parts/printed/j1-output-flange.step,,J1 output flange,yaw输出下部分,1,printed,J1,
+parts/printed/shoulder-bracket.step,,Shoulder bracket,L2电机固定底板,1,printed,J2 shoulder,Holds the J2 actuator.
+parts/purchased/robstride-02.step,,RobStride 02 actuator,rs02,2,purchased,J2 shoulder,J2 and J3.
+parts/printed/rs02-rear-spacer.step,,RS02 rear spacer / cable tie block,02后垫块-束线,4,printed,J2 shoulder,Two on each RS02 (J2 and J3); also a cable tie-down point.
+parts/purchased/bearing-6704-20x27x4.step,,"Deep-groove ball bearing 6704, 20 x 27 x 4 mm",深沟球20，27，4,3,purchased,J2 shoulder,"Passive side of J2, J3 and J4."
+parts/printed/upper-arm-front-half.step,,"Upper arm, front half",L2-P-旧,1,printed,Upper arm,Half of Fusion component L2-P-旧 (current part despite the 旧 'old' in the name). Includes its embossed lettering bodies. Frame: the component frame shared by both halves.
+parts/printed/upper-arm-back-half.step,,"Upper arm, back half",L2-P-旧,1,printed,Upper arm,Half of Fusion component L2-P-旧 (current part despite the 旧 'old' in the name). Includes its embossed lettering bodies. Frame: the component frame shared by both halves.
+parts/printed/forearm-front-half.step,,"Forearm, front half",L3-P,1,printed,Forearm,Half of Fusion component L3-P. Includes its embossed text and logo bodies. Frame: the component frame shared by both halves.
+parts/printed/forearm-back-half.step,,"Forearm, back half",L3-P,1,printed,Forearm,Half of Fusion component L3-P. Includes its embossed text and logo bodies. Frame: the component frame shared by both halves.
+parts/printed/j4-output-spacer.step,,J4 output spacer,末端输出轴垫块,1,printed,J4,STEP product id 2026-07-31-17-09-31-597.
+parts/printed/j4-bearing-spacer.step,,J4 bearing spacer,末端轴承垫块,1,printed,J4,STEP product id 2026-07-31-16-45-47-097.
+parts/printed/j4-j5-link.step,,J4-J5 link,J4-J5-P-3,1,printed,Wrist,
+parts/printed/j5-rear-cap.step,,J5 rear cap,J5后端盖子,1,printed,Wrist,
+parts/printed/j5-j6-link.step,,J5-J6 link,J5-J6-P-L,1,printed,Wrist,
+parts/printed/wrist-cable-guard.step,,Wrist cable guard,护腕,1,printed,Wrist,Wrist guard that also guides the cable. STEP product id 护腕-线缆导向.
+parts/printed/j6-output-head.step,,J6 output head,J6轴头-加强-P,1,printed,Wrist,Reinforced version.
+parts/printed/j7-actuator-mount.step,,J7 (gripper) actuator mount,J7电机底座-P,1,printed,Gripper,
+parts/printed/gripper-crank.step,,Gripper crank,夹爪连杆底座-P,1,printed,Gripper,"Fusion name 夹爪连杆底座-P (linkage base). The component also holds the two pivot washers, which are in pivot-washer.step."
+parts/purchased/pivot-washer.step,,Pivot washer,夹爪连杆底座-P,2,purchased,Gripper,"Unconfirmed: separate bodies inside Fusion component 夹爪连杆底座-P, 5.5 mm OD x 3.5 mm ID x 1.0 mm, on the two crank-end pivots. Bought washer/shim vs printed is unconfirmed."
+parts/printed/gripper-linkage.step,,Gripper linkage,连杆-P,2,printed,Gripper,
+parts/purchased/bearing-mf84zz-4x8x3.step,,"Flanged ball bearing MF84ZZ, 4 x 8 x 3 mm",MF84ZZ 法兰轴承 4 8 3,8,purchased,Gripper,"Two back to back at each linkage pivot. The Fusion component is a pair (2 bodies, 4 instances); this file holds one bearing in the pair's frame (1.6 mm off the origin along its axis)."
+parts/purchased/shoulder-bolt-4mm-m3.step,,"Shoulder bolt, 4 mm shoulder, M3 thread",M4塞打螺栓,2,purchased,Gripper,"Linkage pivots. Fusion calls it M4; the model has a 4 mm shoulder, M3 thread and 7 mm head. The CAD has 2 (both on one linkage) for 4 pivots; check the count per arm."
+parts/printed/gripper-rail-base.step,,Gripper rail base,滑轨底座-P,1,printed,Gripper,
+parts/purchased/mgn7-linear-rail-160mm.step,,"Linear rail MGN7, 160 mm",7mm直线滑轨,1,purchased,Gripper,
+parts/purchased/mgn7-carriage.step,,Linear carriage MGN7,7mm直线滑块,2,purchased,Gripper,MGN7C size (22.5 mm long).
+parts/printed/finger-mount.step,,Finger mount,滑块底座-P,2,printed,Gripper,Mounts a finger on a carriage.
+parts/printed/gripper-finger.step,,Gripper finger,夹爪,2,printed,Gripper,STEP product id 2026-07-23-10-39-16-053.
+parts/printed/wrist-camera-bracket.step,,Wrist camera bracket,Maker Arm摄像头支架-2,1,printed,Wrist camera,
+parts/printed/MA01-131-01-camera-cover.step,MA01-131-01,Camera cover,MA01-131-01; 末端摄像头盖 单logo,2,printed,Wrist camera,"Cover plate with logo over the camera board. One on the wrist camera (Fusion name 末端摄像头盖 单logo, same geometry, no part number there) and one on the front camera. Includes the logo bodies. The wrist one is in the RS02 print file; the MA01-131-01 copy is assumed printed the same way (unconfirmed)."
+parts/purchased/usb-camera-module.step,,USB camera module (KD-USB),相机,2,purchased,Wrist camera,"One on the wrist, one on the front camera stand. The component origin is about 470 mm from the part; re-centre after import if needed."
+parts/printed/MA01-127-01-camera-stand-base-plate.step,MA01-127-01,Camera stand base plate,MA01-127-01,1,printed,Front camera stand,"245 x 100 x 10 mm, includes its embossed lettering bodies. Printed vs another material unconfirmed."
+parts/printed/MA01-128-01-camera-stand-foot.step,MA01-128-01,Camera stand foot,MA01-128-01,1,printed,Front camera stand,In the RS02 print file as 02-3d双臂相机底座.
+parts/printed/MA01-129-01-camera-stand-arm-1.step,MA01-129-01,Camera stand arm 1,MA01-129-01,1,printed,Front camera stand,In the RS02 print file as 相机支架-1.
+parts/printed/MA01-130-01-camera-stand-arm-2.step,MA01-130-01,Camera stand arm 2,MA01-130-01,1,printed,Front camera stand,Holds the front camera. In the RS02 print file as 相机支架-2.
